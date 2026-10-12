@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Erick Canal</title>
+  <meta name="description" content="Erick Canal, backend and distributed systems engineer: adtech real-time bidding, OTT streaming, and AI infrastructure.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="/">Erick Canal</a>
+      <nav aria-label="Main">
+        <ul>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="/company/">Company</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="hero">
+      <h1>Erick Canal</h1>
+      <p class="lede">Backend and distributed systems engineer: adtech real-time bidding, OTT streaming, and AI infrastructure. 14+ years across enterprise, satellite, streaming, and advertising systems.</p>
+    </div>
+
+    <section id="work" aria-labelledby="work-h">
+      <h2 id="work-h">Selected work</h2>
+
+      <div class="role">
+        <h3>Software Engineer (contract), Eric K. Enterprises LLC</h3>
+        <p class="meta">2022 to present</p>
+        <ul class="points">
+          <li><strong>AI infrastructure:</strong> built an audit and verification layer for an AI agent gateway, and root-caused agent tool-call behavior from its records.</li>
+          <li><strong>Kixie</strong> (2024 to 2025): design and code review on React and TypeScript applications; drove test-driven development; worked on AWS serverless services (Lambda, DynamoDB, S3) with Datadog and CloudWatch; validated billing flows with SQL.</li>
+          <li><strong>Apple TV+ via TCS</strong> (2022 to 2023): contributed to the Apple TV+ Windows app launch; built Python diagnostic tooling for HLS streaming and root-caused codec-level playback issues.</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <h3>Software Engineer to Senior Engineer, DIRECTV / AT&amp;T / Xandr</h3>
+        <p class="meta">2014 to 2022</p>
+        <ul class="points">
+          <li>Worked on a real-time bidding platform of 30+ microservices built on Kafka, Couchbase, and OpenRTB; root-caused cross-service failures with Splunk and packet capture.</li>
+          <li>Root-caused ad delivery failures in addressable TV advertising and integrated configuration fixes across networks.</li>
+          <li>Platform work: Kubernetes reliability fixes, Prometheus instrumentation, Splunk dashboards, Jenkins CI/CD, and Maven modernization across services.</li>
+          <li>Satellite ground infrastructure: C++ services on Linux, TCP/IP troubleshooting, and data pipelines integrating Java and C++ environments.</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <h3>Software Engineer, Cayuse Technologies</h3>
+        <p class="meta">2011 to 2014</p>
+        <ul class="points">
+          <li>Backend services and data validation tooling for enterprise IVR platforms.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-h">
+      <h2 id="projects-h">Projects</h2>
+
+      <article class="card featured">
+        <span class="tag">Featured</span>
+        <h3><a href="https://github.com/ErickCanal/financial-gpt-agent">Financial GPT Agent</a></h3>
+        <p>An educational stock analysis tool that keeps the decision out of the language model. A pure, rule-based evaluator produces the signal from technical indicators, and the LLM only writes the explanation, so the same inputs always give the same result.</p>
+        <p>Layered design (data, decision, narrative, UI), multi-provider LLM fallback, 16 tests, and CI across Python 3.10 to 3.12.</p>
+        <p class="stack">Python, pandas, Streamlit, LangChain (Anthropic, OpenAI, Mistral), pytest, GitHub Actions</p>
+        <p class="private">For learning only. Not financial advice.</p>
+      </article>
+
+      <article class="card">
+        <h3>Agent audit and governance</h3>
+        <p>A tamper-evident audit trail for an AI agent gateway: per-tenant hash chains with scheduled integrity verification and alerting. Running continuously on self-hosted hardware since August 2026.</p>
+        <p class="stack">TypeScript, Python, SQLite, Vitest</p>
+        <p class="private">Private repository. Happy to walk through it in an interview.</p>
+      </article>
+
+      <article class="card">
+        <h3>Second Brain</h3>
+        <p>A goal and task execution system built around the Buffett 5/25 rule, with a CLI, a REST API, and a React UI. Claude ranks open work and links tasks to goals across planning horizons.</p>
+        <p class="stack">Python, FastAPI, React, TypeScript, Anthropic API</p>
+        <p class="private">Private repository. Happy to walk through it in an interview.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-h">
+      <h2 id="contact-h">Contact</h2>
+      <p>Email: <a href="mailto:erick@erickcanal.com">erick@erickcanal.com</a><br>
+      LinkedIn: <a href="https://www.linkedin.com/in/erickcanal">linkedin.com/in/erickcanal</a><br>
+      GitHub: <a href="https://github.com/ErickCanal">github.com/ErickCanal</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Erick Canal, Alameda, California. <a href="/company/">Eric K. Enterprises LLC</a></div>
+  </footer>
+</body>
+</html>
